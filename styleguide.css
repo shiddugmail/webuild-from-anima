@@ -1,0 +1,44 @@
+:root {
+  --abbey: #4f4f4f;
+  --black: #272727;
+  --red: #cd424a;
+
+  --font-size-m: 14px;
+  --font-size-xxl: 24px;
+
+  --font-family-overpass: "Overpass", Helvetica;
+}
+.overpass-normal-abbey-14px {
+  color: var(--abbey);
+  font-family: var(--font-family-overpass);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.overpass-extra-bold-shark-24px {
+  color: var(--black);
+  font-family: var(--font-family-overpass);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 800;
+}
+.overpass-normal-mahogany-14px {
+  color: var(--red);
+  font-family: var(--font-family-overpass);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.overpass-normal-white-14px-2 {
+  font-family: var(--font-family-overpass);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.overpass-semi-bold-mahogany-14px {
+  color: var(--red);
+  font-family: var(--font-family-overpass);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
